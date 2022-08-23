@@ -1,7 +1,8 @@
 /* Стилизация кнопки */
 
-button{
-    width: 189px;
+.button{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.875rem 1rem;
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -11,9 +12,8 @@ button{
     cursor: pointer;
 }
 
-button:disabled{
+.button:disabled{
     opacity: 0.5;
-    cursor: default;
     pointer-events: none; /*Убираем поведение hover c заблокированного элемента */
 }
 
