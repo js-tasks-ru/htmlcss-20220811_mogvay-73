@@ -1,12 +1,19 @@
 .skeleton{
     box-sizing: border-box;
-    width: 579px;
-    height: 192px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
     padding: 24px 40px 32px 24px;
+    flex-direction: column;
+}
+
+.skeleton__group{
+    display: flex;
+}
+
+.skeleton__lines_grow{
+    flex-grow: 1;
 }
 
 .skeleton__circle{
@@ -23,15 +30,15 @@
 }
 
 .skeleton__line_size-small{
-    width: 172px;
+    width: 30%;
 }
 
 .skeleton__line_size-average{
-    width: 257px;
+    width: 45%;
 }
 
 .skeleton__line_size-long{
-    width: 515px;
+    width: 90%;
 }
 
 .skeleton__lines_shift-left{
