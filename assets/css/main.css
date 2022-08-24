@@ -12,11 +12,18 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    /*Добавляем цвет класса*/
+    --blue-second:#2342C0;
+    --purple-second:#5028C6; 
+     
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --primary-hover:var(--blue-second); /*Кнопка primary:hover*/
+    --secondary-hover: var(--purple-second); /*Кнопка secondary:hover*/
 }
 
 * {

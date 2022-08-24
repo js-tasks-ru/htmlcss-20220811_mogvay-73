@@ -1,1 +1,44 @@
 /* Стилизация кнопки */
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.875rem 1rem;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.button:disabled{
+    opacity: 0.5;
+    pointer-events: none; /*Убираем поведение hover c заблокированного элемента */
+}
+
+.button_primary{
+    background-color: var(--primary);
+}
+
+.button_primary:hover{
+    background-color: var(--primary-hover);
+}
+
+.button_secondary{
+    background-color: var(--secondary);
+}
+
+.button_secondary:hover{
+    background-color: var(--secondary-hover);
+}
+
+.button_alternate{
+    background-color: var(--white);
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+}
+
+.button_alternate:hover{
+    border-color: var(--black);
+}
