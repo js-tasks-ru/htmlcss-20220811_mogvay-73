@@ -2,7 +2,7 @@
 
 .accordion__item {
     border: 1px solid var(--grey-3);
-    padding: 24px 48.69px 24px 32px;
+    padding: 24px 49px 24px 32px;
     border-radius: 8px;
     margin-bottom: 8px;
     font-size: 16px;
@@ -14,13 +14,6 @@
     margin-bottom: 0px;
 }
 
-/* Закомментировал, т.к отступ между summary и content уже получается 16px
-
-.accordion__item[open] > .accordion__summary{
-    padding-bottom: 16px;
-}
-*/
-
 .accordion__summary {
     
     line-height: 24px;
@@ -30,6 +23,6 @@
 }
 
 .accordion__content {
-    margin-bottom: 8px; /*От content до нижней границы аккордеона 32px, поэтому изменил на 8 (+24px из item)*/
+    margin-bottom: 8px; 
     color: var(--grey-4);
 }
