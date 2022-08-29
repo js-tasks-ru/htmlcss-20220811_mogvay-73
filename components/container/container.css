@@ -1,0 +1,9 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.container-footer{
+    max-width: 640px;
+    margin: 0 auto;
+}
