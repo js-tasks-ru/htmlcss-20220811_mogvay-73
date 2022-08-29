@@ -12,7 +12,7 @@
     display: flex;
 }
 
-.skeleton__lines_grow{
+.skeleton__lines{
     flex-grow: 1;
 }
 
