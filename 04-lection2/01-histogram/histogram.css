@@ -26,20 +26,17 @@
 
 .histogram__link {
     text-decoration: none;
+    color:#4263EB;
 }
 
 .histogram__link:hover {
     text-decoration: underline;
 }
 
-.histogram__h4{
+.histogram__amount{
     font-size: 20px;
     font-weight: 400;
     margin: 6px 0px;
-}
-
-.histogram__link_color{
-    color:#4263EB;
 }
 
 .histogram__columns {
@@ -48,9 +45,7 @@
     flex-wrap: nowrap;
     align-items: flex-end;
     height: 50px;
-    margin-top: 39px;
-    margin-left: 2px;
-    
+    margin-top: 39px; 
 }
 
 .histogram__column{
