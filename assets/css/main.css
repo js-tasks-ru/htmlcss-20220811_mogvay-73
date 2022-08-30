@@ -26,6 +26,6 @@
     --secondary-hover: var(--purple-second); /*Кнопка secondary:hover*/
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
