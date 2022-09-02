@@ -21,3 +21,8 @@
     line-height: 24px;
 
 }
+
+.footer__content{
+    max-width: 640px;
+    margin: 0 auto;
+}

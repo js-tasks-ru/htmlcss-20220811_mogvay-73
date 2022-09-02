@@ -1,5 +1,5 @@
 .preview{
-    background-color: var(--grey-5);
+    background-color: var(--grey-preview);
     padding: 68px 0 204px;
     flex-grow: 1;
 }
