@@ -11,10 +11,14 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #90A0B7;
+    --grey-6: #334D6E;
 
     /*Добавляем цвет класса*/
     --blue-second:#2342C0;
-    --purple-second:#5028C6; 
+    --purple-second:#5028C6;
+    
+    --purple-third:#4263EB;
      
     --error: var(--red);
     --success: var(--blue);
