@@ -5,7 +5,7 @@ body{
     background-image: url(/06-lection4/02-background-image/public/forest_2560.jpg);
 }
 
-@media screen and (max-device-width: 2559px) {
+@media screen and (max-width: 2559px) {
     
     body{
         background-image: url(/06-lection4/02-background-image/public/forest_1024.jpg);
@@ -13,7 +13,7 @@ body{
     
 }
 
-@media screen and (max-device-width: 1023px) {
+@media screen and (max-width: 1023px) {
     
     body{
         background-image: url(/06-lection4/02-background-image/public/forest_768.jpg);
@@ -21,7 +21,7 @@ body{
     
 }
 
-@media screen and (max-device-width: 767px) {
+@media screen and (max-width: 767px) {
     
     body{
         background-image: url(/06-lection4/02-background-image/public/forest_400.jpg);
